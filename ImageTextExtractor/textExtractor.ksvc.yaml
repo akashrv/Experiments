@@ -10,7 +10,7 @@ spec:
       revisionTemplate:
         spec:
           container:
-            image: github.com/Experiments/ImageTextExtractor
+            image: github.com/akashrv/Experiments/ImageTextExtractor
             env:
             - name: GOOGLE_APPLICATION_CREDENTIALS
               value: /var/secrets/google/key.json
